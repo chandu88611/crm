@@ -1,0 +1,98 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      color: #fff;
+      background: #687cfe!important;
+      border-color: #778cff;
+    }
+    .nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+        background: #eeeeee;
+    }
+    #advSearchDiv {
+      padding: 0 0.5rem;
+      display: none;
+    }
+
+    /* placeholder css start */
+
+    .placeholder-content {
+        height: 20px;
+        overflow: hidden;
+        background: #000;
+        position: relative;
+        animation-duration: 1.7s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-name: placeholderAnimate;
+        background: #f6f7f8;
+        background: linear-gradient(to right, #eee 2%, #ddd 18%, #eee 33%);
+        background-size: 1300px;
+      }
+      .placeholder-content_item {
+        width: 100%;
+        height: 0;
+        position: absolute;
+        background: #fff;
+        z-index: 2;
+      }
+      .placeholder-content_item:after, .placeholder-content_item:before {
+        width: inherit;
+        height: inherit;
+        content: '';
+        position: absolute;
+      }
+
+      @keyframes placeholderAnimate {
+        0% {
+          background-position: -650px 0;
+       }
+        100% {
+          background-position: 650px 0;
+       }
+      }
+
+      /* placeholder css end */
+
+      /* Add some styling to the hidden buttons */
+      .hidden-buttons {
+        display: none;
+        text-align: center;
+        opacity: 0; /* Set initial opacity to 0 */
+        transition: opacity 0.5s ease-in-out; /* Add a transition for opacity */
+    }
+
+    .hidden-buttons.visible {
+        opacity: 1; /* Change opacity to 1 when visible */
+        display: flex!important;
+        justify-content: center!important;
+        flex-wrap: wrap!important;
+        gap: 5px;
+    }
+
+    .select2-container .select2-selection--single{
+      height: 38px;
+      border-color: #ced4da!important;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+      color: #8b8c99;
+      line-height: 36px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow{
+      height: 36px;
+    }
+    .modal-backdrop {
+      z-index: 1040 !important; /* Adjust the value based on your needs */
+    }
+
+    /* Increase z-index for the modal */
+    .modal {
+      z-index: 1050 !important; /* Adjust the value based on your needs */
+    }
+
+    /* Ensure that the Select2 dropdown has a higher z-index */
+    .select2-container--open {
+      z-index: 1051 !important; /* Adjust the value based on your needs */
+    }
+
+        .nav-pills .nav-link.active{
+          background: #687cfe ;
+        }

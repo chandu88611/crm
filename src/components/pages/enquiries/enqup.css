@@ -1,0 +1,16 @@
+.filepond--wrapper {
+  height: 200px !important;
+}
+
+.filepond--root {
+  height: 200px !important;
+}
+
+.filepond--drop-label {
+  height: 200px !important;
+}
+
+.filepond--panel-root {
+  border-radius: 0.5em;
+  background-color: #fff;
+}

@@ -1,0 +1,91 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #686868 !important;
+        background-color: #b8dbff !important;
+      }
+      .nav-pills .nav-link{
+        border-bottom: 1px solid #e9ebec!important;
+      }
+      .custom-verti-nav-pills .nav-link{
+        text-align: left;
+      }
+      .nav-pills .nav-link i {
+        margin-right: 5px;
+      }
+      .nav-tabs-custom.card-header-tabs .nav-link {
+        padding: 0.5rem 3rem;
+      }
+      .nav-tabs-custom .nav-item .nav-link {
+        color: grey;
+      }
+      .select2-container .select2-selection--single{
+        height: 38px;
+        border-color: #ced4da!important;
+      }
+      .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #8b8c99;
+        line-height: 36px;
+      }
+      .select2-container--default .select2-selection--single .select2-selection__arrow{
+        height: 36px;
+      }
+      .modal-backdrop {
+        z-index: 1040 !important; /* Adjust the value based on your needs */
+      }
+
+      /* Increase z-index for the modal */
+      .modal {
+        z-index: 1050 !important; /* Adjust the value based on your needs */
+      }
+
+      /* Ensure that the Select2 dropdown has a higher z-index */
+      .select2-container--open {
+        z-index: 1051 !important; /* Adjust the value based on your needs */
+      }
+
+      @media (min-width: 992px){
+        .custom-verti-nav-pills .nav-link.active::before {
+            border-left-color: #b8dbff;
+        }
+      }
+
+      #invoice_form {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .invoices-cards-table {
+            display: block; /* Adjust the initial display property as needed */
+            transition: opacity 0.5s ease;
+        }
+
+        .invoices-cards-table.hidden {
+            opacity: 0;
+            display: none !important;
+        }
+
+        #proposal_form {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .proposals-table {
+            display: block; /* Adjust the initial display property as needed */
+            transition: opacity 0.5s ease;
+        }
+
+        .proposals-table.hidden {
+            opacity: 0;
+            display: none !important;
+        }
+
+        .bootstrap-tagsinput .tag {
+            margin-right: 2px;
+            color: #ffffff;
+            background: #2196F3;
+            padding: 3px 5px;
+            border-radius: 3px;
+            font-size: 12px;
+            border: 1px solid #a6b0e8;
+        }

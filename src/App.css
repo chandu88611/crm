@@ -1,0 +1,75 @@
+.profile-wid-bg::before {
+  /* background: #080808!important;
+    background: -webkit-gradient(linear,left bottom,left top,from(#9E9E9E),to(#080808))!important; */
+  background: linear-gradient(to top, #9E9E9E, #080808) !important;
+  color: #fff !important;
+}
+
+.profile-nav.nav-pills .nav-item .nav-link {
+  color: rgba(255, 255, 255, .8);
+}
+
+/**
+    * Reinstate scrolling for non-JS clients
+    */
+.simplebar-content-wrapper {
+  scrollbar-width: auto;
+  -ms-overflow-style: auto;
+}
+
+.simplebar-content-wrapper::-webkit-scrollbar,
+.simplebar-hide-scrollbar::-webkit-scrollbar {
+  display: initial;
+  width: initial;
+  height: initial;
+}
+
+.avathar-border{
+  border-radius: 50%;
+  border: 3px solid #e5e9f2;
+}
+
+.flatpickr-current-month{
+
+}
+
+.flatpickr-months .flatpickr-month {
+  background: #f3f6f9 !important;
+  color: black !important;
+
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months{
+  background: #f3f6f9 !important;
+  color: black !important;
+
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months .flatpickr-monthDropdown-month{
+  background: #f3f6f9 !important;
+  color: black !important;
+}
+
+.flatpickr-current-month input.cur-year {
+  color: #000 !important;
+}
+
+.leaflet-marker-shadow .leaflet-zoom-animated{
+  display: none !important;
+}
+
+.headline p {
+ color:rgb(62, 119, 241);
+  display:flex;
+  font-size: 10px;
+  width: 95% !important;
+}
+.headline p:before, p:after {
+  color:rgb(255, 255, 255);
+  content:'';
+  flex:1;
+  border-bottom:dashed 1px #e74c3c;
+  margin: auto 0.25rem;
+  box-shadow: 0 -2px  ;
+  
+}

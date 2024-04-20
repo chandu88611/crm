@@ -1,0 +1,55 @@
+.table {
+         border-collapse: separate;
+         border-spacing: 0 5px!important;
+         vertical-align: middle;
+         }
+         td {
+         white-space: unset!important;
+         color: grey!important;
+         font-size: 13px!important;
+         }
+         .w-15{
+         width: 15%!important;
+         }
+         .pl-3{
+         padding-left: 1rem;
+         }
+         tr.child {
+         background: #fff;
+         -webkit-box-shadow: rgba(100,98,92,.06) 0 0 15px 4px!important;
+         box-shadow: rgba(100,98,92,.06) 0 0 15px 4px!important;
+         }
+         #example_filter, #example_length {
+         display: none;
+         }
+
+         .select2-container .select2-selection--single{
+           height: 38px;
+           border-color: #ced4da!important;
+         }
+         .select2-container--default .select2-selection--single .select2-selection__rendered {
+           color: #8b8c99;
+           line-height: 36px;
+         }
+         .select2-container--default .select2-selection--single .select2-selection__arrow{
+           height: 36px;
+         }
+         .modal-backdrop {
+           z-index: 1040 !important; /* Adjust the value based on your needs */
+         }
+
+         /* Increase z-index for the modal */
+         .modal {
+           z-index: 1050 !important; /* Adjust the value based on your needs */
+         }
+
+         /* Ensure that the Select2 dropdown has a higher z-index */
+         .select2-container--open {
+           z-index: 1051 !important; /* Adjust the value based on your needs */
+         }
+
+         #create_invoice {
+            display: none;
+            /* Add your animation styles here */
+            transition: opacity 0.5s ease-in-out;
+        }

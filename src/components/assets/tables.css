@@ -1,0 +1,27 @@
+.table {
+    border-collapse: separate;
+    border-spacing: 0 5px!important;
+    vertical-align: middle;
+    }
+    td {
+    white-space: unset!important;
+    color: grey!important;
+    font-size: 13px!important;
+    text-align: center;
+    }
+    .w-15{
+    width: 15%!important;
+    }
+    .pl-3{
+    padding-left: 1rem;
+    }
+    tr.child {
+    background: #fff;
+    -webkit-box-shadow: #fff 0 0 15px 4px!important;
+    box-shadow: #fff 0 0 15px 4px!important;
+    }
+    .custom-avatar {
+    padding: 0.75rem 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    }
